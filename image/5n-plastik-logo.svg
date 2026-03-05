@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 400 100"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="5n-plastik-logo.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.7835627"
+     inkscape:cx="351.59918"
+     inkscape:cy="192.07142"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <rect
+     width="400"
+     height="100"
+     fill="white"
+     id="rect1" />
+  <g
+     id="logo-symbol"
+     transform="translate(-0.3988194,-5.1048882)">
+    <g
+       opacity="1"
+       id="g3">
+      <rect
+         x="10"
+         y="20"
+         width="8"
+         height="65"
+         fill="#8fa9f5"
+         rx="1"
+         id="rect2" />
+      <rect
+         x="10"
+         y="77"
+         width="40"
+         height="8"
+         fill="#8fa9f5"
+         rx="1"
+         id="rect3" />
+    </g>
+    <g
+       opacity="1"
+       id="g5"
+       transform="translate(0.22560632,-0.58336976)">
+      <rect
+         x="18.707275"
+         y="20.585449"
+         width="8"
+         height="53"
+         fill="#5b7fe8"
+         rx="1"
+         id="rect4" />
+      <rect
+         x="18.932882"
+         y="65.585457"
+         width="34"
+         height="8"
+         fill="#5b7fe8"
+         rx="1"
+         id="rect5" />
+    </g>
+    <g
+       opacity="1"
+       id="g7"
+       transform="translate(6.1848198,-11.879719)">
+      <rect
+         x="22"
+         y="32"
+         width="8"
+         height="41"
+         fill="#2b4bc4"
+         rx="1"
+         id="rect6" />
+      <rect
+         x="22"
+         y="65"
+         width="28"
+         height="8"
+         fill="#2b4bc4"
+         rx="1"
+         id="rect7" />
+    </g>
+  </g>
+  <text
+     x="60"
+     y="65"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="48"
+     font-weight="900"
+     fill="#1a1a1a"
+     letter-spacing="-2"
+     id="text7">5N</text>
+  <text
+     x="145"
+     y="65"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="48"
+     font-weight="700"
+     fill="#1a1a1a"
+     letter-spacing="1"
+     id="text8">PLASTİK</text>
+</svg>

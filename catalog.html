@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog | Plastik Köşebent</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="image/5n-plastik-logo.svg" alt="Logo">
+                    <span>PlastikKöşebent</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+                    <li><a href="products.html" class="nav-link">Ürünler</a></li>
+                    <li><a href="applications.html" class="nav-link">Uygulamalar</a></li>
+                    <li><a href="catalog.html" class="nav-link active">Katalog</a></li>
+                    <li><a href="about.html" class="nav-link">Hakkımızda</a></li>
+                    <li><a href="contact.html" class="nav-link">İletişim</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Ürün Kataloğu</h1>
+                <p>Tüm ürünlerimizin detaylı teknik özellikleri ve ölçüleri</p>
+            </div>
+        </section>
+
+        <section class="catalog-download">
+            <div class="container">
+                <div class="download-card">
+                    <div class="download-content">
+                        <h2>Tam Kataloğu İndirin</h2>
+                        <p>Tüm ürün gamımızı içeren detaylı kataloğumuzu PDF formatında indirebilirsiniz. Daha fazla bilgi için <a href="https://plastikkosebent.com.tr/25x25-mm-plastik-kosebent.html" target="_blank" rel="dofollow">25x25 mm plastik köşebent</a> sayfamızı ziyaret edin.</p>
+                        <ul>
+                            <li>45 farklı ürün modeli</li>
+                            <li>Teknik çizimler ve ölçüler</li>
+                            <li>Montaj talimatları</li>
+                            <li>Fiyat listesi</li>
+                        </ul>
+                    </div>
+                    <div class="download-buttons">
+                        <a href="https://plastikkosebent.com.tr/25x25-mm-plastik-kosebent.html" target="_blank" rel="dofollow" class="download-btn pdf-download">
+                            <span>PDF İndir</span>
+                        </a>
+                        <a href="https://plastikkosebent.com.tr/iletisim/" target="_blank" rel="dofollow" class="download-btn catalog-request">
+                            <span>Basılı Katalog Talep Et</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-table">
+            <div class="container">
+                <h2>Teknik Özellikler Tablosu</h2>
+                <div class="search-filter">
+                    <input type="text" id="catalog-search" placeholder="Ürün ara...">
+                    <select id="catalog-filter">
+                        <option value="all">Tüm Kategoriler</option>
+                        <option value="l-type">L Tipi</option>
+                        <option value="t-type">T Tipi</option>
+                        <option value="flat">Düz</option>
+                        <option value="adjustable">Ayarlanabilir</option>
+                    </select>
+                </div>
+                <div class="table-wrapper">
+                    <table class="catalog-data">
+                        <thead>
+                            <tr>
+                                <th>Ürün Kodu</th>
+                                <th>Ürün Adı</th>
+                                <th>Boyutlar (mm)</th>
+                                <th>Malzeme</th>
+                                <th>Renk</th>
+                                <th>Kutu Adedi</th>
+                                <th>Fiyat</th>
+                                <th>Detay</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-category="l-type">
+                                <td>PK-L-001</td>
+                                <td>L Tipi Köşebent</td>
+                                <td>30x30x30</td>
+                                <td>Polikarbonat</td>
+                                <td>Beyaz</td>
+                                <td>100</td>
+                                <td>₺15,90</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="l-type">
+                                <td>PK-L-002</td>
+                                <td>L Tipi Köşebent</td>
+                                <td>40x40x40</td>
+                                <td>Polikarbonat</td>
+                                <td>Siyah</td>
+                                <td>75</td>
+                                <td>₺22,50</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="l-type">
+                                <td>PK-L-003</td>
+                                <td>Mini L Tipi</td>
+                                <td>15x15x15</td>
+                                <td>ABS</td>
+                                <td>Gri</td>
+                                <td>200</td>
+                                <td>₺8,90</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="t-type">
+                                <td>PK-T-001</td>
+                                <td>T Tipi Köşebent</td>
+                                <td>25x25x25</td>
+                                <td>Polipropilen</td>
+                                <td>Beyaz</td>
+                                <td>80</td>
+                                <td>₺18,50</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="t-type">
+                                <td>PK-T-002</td>
+                                <td>T Tipi Köşebent</td>
+                                <td>35x35x35</td>
+                                <td>Polipropilen</td>
+                                <td>Siyah</td>
+                                <td>60</td>
+                                <td>₺24,75</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="flat">
+                                <td>PK-F-001</td>
+                                <td>Düz Köşebent</td>
+                                <td>50x20x5</td>
+                                <td>PVC</td>
+                                <td>Beyaz</td>
+                                <td>150</td>
+                                <td>₺12,75</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="flat">
+                                <td>PK-F-002</td>
+                                <td>Düz Köşebent</td>
+                                <td>75x25x8</td>
+                                <td>PVC</td>
+                                <td>Gri</td>
+                                <td>100</td>
+                                <td>₺18,25</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="adjustable">
+                                <td>PK-A-001</td>
+                                <td>Ayarlanabilir Köşebent</td>
+                                <td>30x30x30</td>
+                                <td>Naylon</td>
+                                <td>Siyah</td>
+                                <td>50</td>
+                                <td>₺35,00</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                            <tr data-category="adjustable">
+                                <td>PK-A-002</td>
+                                <td>Ayarlanabilir Köşebent</td>
+                                <td>45x45x45</td>
+                                <td>Naylon</td>
+                                <td>Gri</td>
+                                <td>40</td>
+                                <td>₺42,50</td>
+                                <td><button class="detail-btn">Gör</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-specs">
+            <div class="container">
+                <h2>Teknik Çizimler</h2>
+                <div class="specs-gallery">
+                    <div class="spec-card">
+                        <img src="image/30x30-mm-plastik-kosebent-profil.webp" alt="L Tipi Teknik Çizim">
+                        <h3>L Tipi Köşebent - Teknik Çizim</h3>
+                        <p>Standart L tipi köşebent teknik özellikleri</p>
+                    </div>
+                    <div class="spec-card">
+                        <img src="image/25x25-mm-dekoratif-kosebent.webp" alt="T Tipi Teknik Çizim">
+                        <h3>T Tipi Köşebent - Teknik Çizim</h3>
+                        <p>T tipi köşebent montaj detayları</p>
+                    </div>
+                    <div class="spec-card">
+                        <img src="image/50x50-mm-dekoratif-kosebent.webp" alt="Ayarlanabilir Teknik Çizim">
+                        <h3>Ayarlanabilir Köşebent - Teknik Çizim</h3>
+                        <p>Ayarlanabilir köşebent kullanım alanları</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>PlastikKöşebent</h3>
+                    <p>Profesyonel plastik köşebent çözümleri sağlayan lider firma</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="products.html">Ürünler</a></li>
+                        <li><a href="applications.html">Uygulamalar</a></li>
+                        <li><a href="catalog.html">Katalog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>İletişim</h3>
+                    <p>Telefon: +90 212 555 0123</p>
+                    <p>E-posta: info@plastikkosebent.com</p>
+                    <p>Adres: İstanbul, Türkiye</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PlastikKöşebent. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
