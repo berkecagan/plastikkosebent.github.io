@@ -1,6 +1,6 @@
 # Plastik Köşebent Web Sitesi
 
-Bu proje, plastik köşebent ürünleri için profesyonel bir web sitesidir. Modern tasarım, responsive yapı ve kullanıcı dostu arayüz ile müşterilere kapsamlı ürün bilgileri sunmaktadır.
+Bu proje, [Plastik Köşebent](https://plastikkosebent.com.tr/) ürünleri için profesyonel bir web sitesidir. Modern tasarım, responsive yapı ve kullanıcı dostu arayüz ile müşterilere kapsamlı ürün bilgileri sunmaktadır.
 
 ## Özellikler
 
